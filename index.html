@@ -7,13 +7,14 @@
     <title>Barbearia </title>
     <link rel="stylesheet" href="/Styles/style.css">
     <link rel="stylesheet" href="/Styles/responsi.css">
+    <link rel="shortcut icon" href="/Assets/razor.svg" type="image/x-icon">
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <img src="">
-            <img src="">
+            <img src="/Assets/razor.svg">
+            <p>Slogan</p>
         </div>
         <h1>Barber Shop</h1>
         <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
@@ -26,45 +27,86 @@
                 <img src="/Assets/cadeira.jpg" class="img">
                 <div class="txt">
                     <div class="texto txt1">
-                        <h3>Algum Título</h3>
+                        <h3 id="tt1">Algum Título</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque distinctio iste nam </p>
                     </div>
                     <div class="texto txt2">
-                        <h3>Algum Título</h3>
+                        <h3 id="tt2">Algum Título</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque distinctio iste nam </p>
                     </div>
                     <div class="texto txt3">
-                        <h3>Algum Título</h3>
+                        <h3 id="tt3">Algum Título</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque distinctio iste nam </p>
                     </div>
                 </div>
             </article>
         </section>
-        <section>
-            <h1>Algum Titulo</h1>
-            <article>
-                <div class="cortes">
-                    <p>Alguma coisa</p>
-                    <p>Alguma coisa</p>
-                    <p>Alguma coisa</p>
-                    <p>Alguma coisa</p>
+        <section class="secondsec">
+            <h1>Algum <span class="titlesec2">Título</span></h1>
+            <article class="cortesquare">
+                <div class="cortes 1">
+                    <p>Alguma coisa <span class="underline">_____________</span><span class="textosp">R$ 00,00</span></p>
+                    <p>Alguma coisa <span class="underline">_____________</span><span class="textosp">R$ 00,00</span></p>
+                    <p>Alguma coisa <span class="underline">_____________</span><span class="textosp">R$ 00,00</span></p>
+                    <p>Alguma coisa <span class="underline">_____________</span><span class="textosp">R$ 00,00</span></p>
+
+
                 </div>
-                <div class="cortes">
-                    <p>Alguma coisa</p>
-                    <p>Alguma coisa</p>
-                    <p>Alguma coisa</p>
-                    <p>Alguma coisa</p>
+                <div class="cortes 2">
+                    <p>Alguma coisa <span class="underline">_____________</span><span class="textosp">R$ 00,00</span></p>
+                    <p>Alguma coisa <span class="underline">_____________</span><span class="textosp">R$ 00,00</span></p>
+                    <p>Alguma coisa <span class="underline">_____________</span><span class="textosp">R$ 00,00</span></p>
+                    <p>Alguma coisa <span class="underline">_____________</span><span class="textosp">R$ 00,00</span></p>
                 </div>
             </article>
             <a href="">Clique Aqui</a>
         </section>
-        <section>
-            <h1>#Alguma Coisa</h1>
-            <div class="carrosel">
+        <section class="carousel">
+            <h1>Alguma <span class="titlecar">Coisa</span></h1>
+            <div class="slider">
+                <div class="slides">
+                    <!-- Radio Butons -->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <!-- fim radio butons -->
+
+                    <!-- Slide Images -->
+                    <div class="slide first">
+                        <img src="/Assets/slide1.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="/Assets/slide2.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="/Assets/slide3.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="/Assets/slide4.jpg">
+                    </div>
+                    <!-- Fim Slide Images -->
+
+                    <!-- Navigation Auto -->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                </div>
+
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
 
             </div>
         </section>
     </main>
+    <script src="/app.js"></script>
 </body>
 
 </html>
