@@ -21,12 +21,12 @@ header h1 {
   padding-bottom: 40px;
   font-size: 7em;
   font-family: "Rye";
-  color: #ff9b00;
+  color: #ffd700;
 }
 
 header h3 {
   font-size: 1.5em;
-  color: #ff9b00;
+  color: #ffd700;
 }
 
 header a {
@@ -35,7 +35,7 @@ header a {
   margin: auto;
   color: black;
   width: 180px;
-  background-color: #ff9b00;
+  background-color: #ffd700;
   padding: 10px 20px;
   margin-top: 50px;
   display: block;
@@ -125,7 +125,7 @@ main {
 }
 
 .img {
-  width: 400px;
+  width: 500px;
   height: 300px;
 }
 
@@ -191,6 +191,7 @@ main {
 .cortes p {
   text-decoration: underline;
   margin-top: 40px;
+  font-size: 1.5em;
 }
 
 .underline {
@@ -221,7 +222,7 @@ main {
 /* Carrossel Imagens */
 
 .slider {
-  margin: 5vh auto;
+  margin: 1vh auto;
   width: 800px;
   height: 400px;
   overflow: hidden;
@@ -324,3 +325,15 @@ main {
 }
 
 /* Fim Carrossel Imagens */
+
+.footer {
+  height: 5vh;
+  background-color: #0f1110;
+  padding: 10px;
+}
+
+.footer p {
+  color: gainsboro;
+  text-align: center;
+  font-size: 1.3em;
+}
